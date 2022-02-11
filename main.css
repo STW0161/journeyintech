@@ -1,0 +1,497 @@
+.background{
+    background: url("images/BG.png") no-repeat center center fixed;
+    background-size: cover;
+    }
+
+.navbar a{ 
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #cbd7e4;
+    margin: 30px;
+    padding-right: 5px;
+}   
+.navbar{
+    border: 1px;
+    border-style: outset;
+    border-color: none;
+    background-color: rgba(4, 147, 190, 0.637)
+}
+
+.navbar :hover{
+    color: white
+} 
+
+/* INDEX HOME */
+
+.JOURNEY{
+    color: whitesmoke;
+}
+.introhead{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end; 
+    text-align: center;
+    color: whitesmoke;
+    font-family: arial;
+    font-size: xx-large;
+    padding: 5px;
+    border: 1px;
+    border-style: none;
+    margin: 5px;
+}
+
+#CM {
+    display: flex;
+    min-height: 10vh;
+    flex-direction: column;
+    justify-content: flex-end; 
+    text-align: center;
+    text-align: center;
+    color: whitesmoke;
+    font-family: arial;
+    font-size: large;
+    padding: 5px;
+    border: 1px;
+    border-style: none;
+}
+
+.intropara{
+    display: flex;
+    min-height: 10vh;
+    flex-direction: column;
+    justify-content: flex-end; 
+    text-align: center;
+    text-align: center;
+    color: whitesmoke;
+    font-family: arial;
+    font-size: large;
+    padding: 5px;
+    border: 1px;
+    border-style: none;
+}
+
+.GTKScott{ 
+    font-size: xx-large;
+}
+
+.text {
+    font-size: xx-large;
+}
+
+.Text1 {
+    font-size: larger;
+}
+
+.boxtext1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end; 
+    align-items: left; 
+    padding: 1px;
+    border: 1px;
+    border-style: outset;
+    text-align: center;
+    color: whitesmoke;
+    font-family: arial; ;
+    border-color: rgba(0, 0, 0, 0.89);
+    background-color: rgba(4, 147, 190, 0.637);
+    width: 60vw;
+}
+
+.ScottBox {
+display: flex;
+flex-direction:row-reverse;
+justify-content: flex-end; 
+align-items: left; 
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end; 
+    align-items: left; 
+    padding: 1px;
+    border: 1px;
+    border-style: outset;
+    text-align: left;
+    color: whitesmoke;
+    font-family: arial;
+    border-color: rgba(0, 0, 0, 0.89);
+    background-color: rgba(4, 147, 190, 0.637);
+    width: 65vw;
+}
+
+.TextBox {
+    display: flex;
+    flex-direction:row;
+    justify-content: flex-end; 
+    flex-wrap: wrap;
+    align-items: left; 
+}
+
+.relichead{
+    display: flex;
+    min-height: 10vh;
+    flex-direction: column;
+    justify-content: flex-end; 
+    text-align: center;
+    align-items: center;
+    color: whitesmoke;
+    padding: 5px;
+    border: 1px;
+    border-style: none;
+    margin: 5px;
+    width: 60vw;
+}
+
+.FilmLink {
+    color: yellow;
+}
+
+/* MEDIA CONTENT IMAGES/VIDEOS/IFRAMES */
+
+.Scott img{
+    width: 30vw;
+}
+
+.Scott {
+    display: flex;
+    min-height: 10vh;
+    flex-direction: row;
+    justify-content: flex-end; 
+    align-items: right; 
+    padding: 5px;
+    border: 1px;
+    border-style: none;
+    margin: 5px
+}
+
+.Sealion img {
+    width: 30vw;
+}
+
+.Sealion {
+    display: flex;
+    min-height: 10vh;
+    flex-direction: row;
+    justify-content: flex-end; 
+    align-items: flex-end;
+    padding: 5px;
+    border: 1px;
+    border-style: none;
+    margin: 5px;
+}
+
+.Graduation img {
+    width: 35vw;
+}
+
+.Graduation {
+    display: flex;
+    min-height: 10vh;
+    flex-direction: row;
+    justify-content: flex-end; 
+    align-items: flex-end;
+    padding: 5px;
+    border: 1px;
+    border-style: none;
+    margin: 5px;
+}
+
+.Snakehook img {
+    width: 40vw;
+}
+
+.Snakehook {
+    display: flex;
+    min-height: 10vh;
+    flex-direction: row;
+    justify-content: flex-end; 
+    align-items: flex-end;
+    padding: 5px;
+    border: 1px;
+    border-style: none;
+    margin: 5px;
+}
+
+.Tortois img {
+    width: 35vw;
+}
+
+.Tortois {
+    display: flex;
+    min-height: 10vh;
+    flex-direction: row;
+    justify-content: flex-end; 
+    align-items: flex-end;
+    padding: 5px;
+    border: 1px;
+    border-style: none;
+    margin: 5px;
+}
+
+.Gallotia img {
+    width: 35vw;
+}
+
+.Gallotia {
+    display: flex;
+    min-height: 10vh;
+    flex-direction: row;
+    justify-content: flex-end; 
+    align-items: flex-end;
+    padding: 5px;
+    border: 1px;
+    border-style: none;
+    margin: 5px;
+}
+
+.GilaMonster img {
+    width: 30vw;
+}
+
+.GilaMonster {
+    display: flex;
+    min-height: 10vh;
+    flex-direction: row;
+    justify-content: flex-end; 
+    align-items: flex-end;
+    padding: 5px;
+    border: 1px;
+    border-style: none;
+    margin: 5px;
+}
+
+/* WATCH FILM  video removed*/
+
+
+
+/* THE ROAD AHEAD */
+
+.CodeNationLogo img {
+    width: 35vw;
+}
+
+.CodeNationLogo {
+    display: flex;
+    min-height: 10vh;
+    flex-direction: row;
+    justify-content: flex-end; 
+    align-items: flex-end;
+    padding: 5px;
+    border: 1px;
+    border-style: none;
+    margin: 5px;
+}
+
+.AppleLogo img {
+    width: 35vw;
+}
+.AppleLogo {
+    display: flex;
+    min-height: 10vh;
+    flex-direction: row;
+    justify-content: flex-end; 
+    align-items: flex-end;
+    padding: 5px;
+    border: 1px;
+    border-style: none;
+    margin: 5px;
+}
+
+.TeslaLogo img {
+    width: 15vw;
+}
+
+.TeslaLogo {
+    display: flex;
+    min-height: 10vh;
+    flex-direction: row;
+    justify-content: flex-end; 
+    align-items: flex-end;
+    padding: 5px;
+    border: 1px;
+    border-style: none;
+    margin: 5px;
+}
+
+.InsomniacLogo img {
+    width: 35vw;
+}
+
+.InsomniacLogo {
+    display: flex;
+    min-height: 10vh;
+    flex-direction: row;
+    justify-content: flex-end; 
+    align-items: flex-end;
+    padding: 5px;
+    border: 1px;
+    border-style: none;
+    margin: 5px;
+}
+
+.VSCLogo img {
+    width: 35vw;
+}
+
+.VSCLogo {
+    display: flex;
+    min-height: 10vh;
+    flex-direction: row;
+    justify-content: flex-end; 
+    align-items: flex-end;
+    padding: 5px;
+    border: 1px;
+    border-style: none;
+    margin: 5px;
+}
+
+.VSCShot img {
+    width: 50vw;
+}
+
+.VSCShot {
+    display: flex;
+    min-height: 10vh;
+    flex-direction: row;
+    justify-content: flex-end; 
+    align-items: flex-end;
+    padding: 5px;
+    border: 1px;
+    border-style: none;
+    margin: 5px;
+}
+
+/* PLAY GAME */
+
+.RHL img {
+    width: 80vw;
+}
+
+.RHL {
+    display: flex;
+    min-height: 10vh;
+    flex-direction: column;
+    justify-content: flex-end; 
+    align-items: center;
+    padding: 5px;
+    border: 1px;
+    border-style: none;
+    margin: 5px;
+}
+
+/* WHY TECH? */
+
+.GoogleLogo img {
+    width: 35vw;
+}
+
+.GoogleLogo {
+    display: flex;
+    min-height: 10vh;
+    flex-direction: row;
+    justify-content: flex-end; 
+    align-items: flex-end;
+    padding: 5px;
+    border: 1px;
+    border-style: none;
+    margin: 5px;
+}
+
+.PSLogo img {
+    width: 35vw;
+}
+
+.PSLogo {
+    display: flex;
+    min-height: 10vh;
+    flex-direction: row;
+    justify-content: flex-end; 
+    align-items: flex-end;
+    padding: 5px;
+    border: 1px;
+    border-style: none;
+    margin: 5px;
+}
+
+.Evolution img {
+    width: 35vw;
+}
+
+.Evolution {
+    display: flex;
+    min-height: 10vh;
+    flex-direction: row;
+    justify-content: flex-end; 
+    align-items: flex-end;
+    padding: 5px;
+    border: 1px;
+    border-style: none;
+    margin: 5px;
+}
+
+.NASALogo img {
+    width: 35vw;
+}
+
+.NASALogo {
+    display: flex;
+    min-height: 10vh;
+    flex-direction: row;
+    justify-content: flex-end; 
+    align-items: flex-end;
+    padding: 5px;
+    border: 1px;
+    border-style: none;
+    margin: 5px;
+}
+/* CONTACT ME */
+
+.GmailLogo img {
+    width: 5vw;
+}
+
+.GmailLogo {
+    display: flex;
+    min-height: 10vh;
+    flex-direction: column;
+    justify-content: flex-end; 
+    align-items: flex-end;
+    padding: 5px;
+    border: 1px;
+    border-style: none;
+    margin: 5px;
+}
+
+.LinkedinLogo img {
+    width: 5vw;
+}
+
+.LinkedinLogo {
+    display: flex;
+    min-height: 10vh;
+    flex-direction: column;
+    justify-content: flex-end; 
+    align-items: flex-end;
+    padding: 5px;
+    border: 1px;
+    border-style: none;
+    margin: 5px;
+}
+
+.InstagramLogo img {
+    width: 5vw;
+}
+
+.InstagramLogo {
+    display: flex;
+    min-height: 10vh;
+    flex-direction: column;
+    justify-content: flex-end; 
+    align-items: flex-end;
+    padding: 5px;
+    border: 1px;
+    border-style: none;
+    margin: 5px;
+}
